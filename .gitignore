@@ -1,0 +1,6 @@
+share/*
+logs/*
+lib*/*
+*bin/*
+*.txt
+
