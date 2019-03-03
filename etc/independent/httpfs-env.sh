@@ -19,7 +19,7 @@
 # Java System properties for HttpFS should be specified in this variable
 #
 # export CATALINA_OPTS=
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+
 # HttpFS logs directory
 #
 # export HTTPFS_LOG=${HTTPFS_HOME}/logs

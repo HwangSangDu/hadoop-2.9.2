@@ -1,4 +1,5 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <!--
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -12,13 +13,18 @@
   See the License for the specific language governing permissions and
   limitations under the License. See accompanying LICENSE file.
 -->
+
+<!-- Put site-specific property overrides in this file. -->
+
 <configuration>
-  <property>
-    <name>yarn.resourcemanager.hostname</name>
-    <value>namenode</value>
-  </property>
-  <property>
-    <name>yarn.nodemanager.aux-services</name>
-    <value>mapreduce_shuffle</value>
-  </property>
+  <!-- # DATA/TMP 디렉토리 설정 -->
+  <!-- <property>
+  <name>hadoop.tmp.dir</name>
+  <value>/home/hadoop/hadoop/tmp</value>
+  </property> -->
+  <!-- # 네임노드 정보 -->
+  <!-- <property>
+      <name>fs.defaultFS</name>
+      <value>hdfs://localhost</value>
+  </property> -->
 </configuration>

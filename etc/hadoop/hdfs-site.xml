@@ -18,9 +18,13 @@
 
 <configuration>
   <!-- <property>
-      <name>dfs.replication</name>
-      <value>1</value>
+    <name>dfs.namenode.rpc-bind-host</name>
+      <value>0.0.0.0</value>
   </property> -->
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
 <!--     <property>
         <name>dfs.http.address</name>
         <value>localhost:50070</value>
